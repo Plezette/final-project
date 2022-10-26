@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+* {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+/* General Styles */
+/* NEED THIS HEIGHT FOR THE BODY, AND THE HTML FOR OUR HERO SECTION */
+body, html {
+    height: 100%;
+}
+h1 {
+    font-weight: lighter;
+    text-align:left;
+    
+}
+h3 {
+    text-align: left;
+}
+h4 {
+    text-align: right;
+}
+a {
+    font-weight: 100;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.clearfix, .row:after {
+    clear: both;
+}
+/* HEADER, NAV, AND FOOTER STYLES */
+header, footer {
+    border: 1px red solid;
+    padding: 5px;
+    background-color: rgb(28, 136, 103);
+}
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+.nav-items {
+    float: right;
+}
+.nav-items::after {
+    clear: both;
+}
+.listed-nav_item {
+    display: inline-block;
+    padding: 10px;
+}
+section p, article p {
+    font-family: 'Lato', serif; 
+}
+/* FONT AWESOME SOCIAL MEDIAL ICONS STYLES  */
+.fa-brands {
+    font-size: 40px;
+    margin: 20px;
+}
+.fa-facebook {
+    color: #ffff00;
+    /* background-color: #000000; */
+}
+.fa-github-alt:hover {
+    color: #add8e6;
+}
+.fa-facebook:hover{
+    color: #0000ff;
+}
+.fa-linkedin-in {
+    color: yellow;
+}
+/* Home Page Main Styles */
+section, article {
+    height: 200px;
+    padding: 5px;
+}
+section, article, aside {
+    border: 0.01px solid black;
+}
+aside {
+    height: 400px;
+}
+aside img {
+    height: 100%;
+    width: 100%;
+}
+.float-left, .col {
+    float: left;
+}
+.col {
+    width: 50%;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+}
+.section-article_column {
+    width: 65%;
+}
+.aside_column {
+    width: 35%;
+}
+/*  misc class selectors */
+.centered {
+    width: 100%;
+    text-align: center;
+}
+.clearfix, .row:after {
+    clear: both;
+}
+/* contact form styles */
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 5px;
+    resize: vertical;
+  }
+  
+.textbox {
+    height: 60px;
+}
+.form-button {
+    background-color: #2804aa;
+    color: rgb(175, 41, 41);
+    padding: 12px 20px;
+    border: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-button:hover {
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    width: 380px;
+    border-radius: 5px;
+    background-color: #8e26a3;
+    padding: 30px;
+    height: 300px;
+}
+/* HERO SECTION STYLES*/
+.hero-image {
+    margin: 5px;
+    background-image: url("/img/logo.jpg");
+  
+    /* Set a height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+  }
+  
+  .hero-text {
+    color: rgb(126, 83, 18) ;
+    text-align:center;
+    margin-bottom: 40px;
+    /* POSTION AND TRANSFORM TO CENTER THE TEXT ON THE IMAGE */
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  header{
+    margin-bottom: 20px;
+  }
