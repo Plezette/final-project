@@ -51,6 +51,7 @@ footer {
 }
 section p, article p {
     font-family: 'Lato', serif; 
+    background-color: #d7ee74;
 }
 /* FONT AWESOME SOCIAL MEDIAL ICONS STYLES  */
 .fa-brands {
@@ -138,7 +139,7 @@ input, select, textarea {
 .container {
     width: 380px;
     border-radius: 5px;
-    background-color: #8e26a3;
+    background-color: #73a326;
     padding: 30px;
     height: 300px;
 }
@@ -168,4 +169,5 @@ input, select, textarea {
   } 
   header{
     margin-bottom: 20px;
+    height: 60px;
   }
