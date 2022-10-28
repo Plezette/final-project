@@ -146,7 +146,7 @@ input, select, textarea {
 /* HERO SECTION STYLES*/
 .hero-image {
     margin: 5px;
-    background-image: url("img/logo.jpg");
+    background-image: url("/img/logo.jpg");
   
     /* Set a height */
     height: 50%;
